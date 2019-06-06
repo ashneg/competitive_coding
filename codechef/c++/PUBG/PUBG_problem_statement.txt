@@ -1,0 +1,79 @@
+Playerunknown's Battlegrounds Mobile, popularly known as PUBG is the favourite mobile game of millions. Such is its popularity, that it had to be banned in several regions to account for its addiction. This reduced the number of real players on some servers and increased the number of bots.
+
+On one of the PUBG servers, real players can team up as “squad” of four members, “duo” of two members or play alone as “solo”. The server must contain exactly p players for the match to start and so, bots are added to fill up the player count to p in cases when there are not enough "real" players on the server.
+
+On a particular server, there are a number of squads, b number of duos, c number of solo players and d number of bots. Given the number of bots, d on the server when the match starts, find the total number of distinct values of triplets (a, b, c) possible on the server.
+Input:
+
+    The first line of the input contains a single integer T
+
+denoting the number of test cases. The description of T
+test cases follows.
+The first and only line of each test case contains two space separated integers p
+and d
+
+    . 
+
+Output:
+
+    For each test case, print a single line containing one integer — the total number of distinct values of triplets (a
+
+, b, c
+
+    ) posible on the server. 
+
+Constraints
+
+    1≤T≤3⋅105
+
+100≤p≤105
+0≤d≤p−4
+0≤a,b,c
+
+Subtasks
+Subtask #1 (10 points):
+
+    1≤T≤3⋅103
+
+100≤p≤1000
+
+Subtask #2 (30 points):
+
+    1≤T≤3⋅104
+
+100≤p≤10000
+
+Subtask #3 (60 points):
+
+    Original Constraints 
+
+Sample Input:
+1
+100 94
+Sample Output:
+6
+EXPLANATION:
+For a server with 100 players, there are 94 bots and 6 real players, there can be:
+
+    1
+
+squad, 0 duos, 2
+solos
+1
+squad, 1 duo, 0
+solos
+0
+squads, 3 duos, 0
+solos
+0
+squads, 2 duos, 2
+solo
+0
+squads, 1 duo, 4
+solos
+0
+squads, 0 duos, 6
+
+    solos 
+
+Therefore, a total of 6 ways.
