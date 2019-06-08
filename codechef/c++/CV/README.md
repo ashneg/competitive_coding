@@ -31,10 +31,11 @@ S
 
     contains only lowercase English letters
 
-Subtasks
+**Subtasks**
 
 Subtask #1 (100 points): original constraints
-Example Input
+
+**Example Input**
 
 3
 
@@ -50,7 +51,7 @@ abu
 
 o
 
-Example Output
+**Example Output**
 
 3
 
