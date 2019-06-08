@@ -1,7 +1,7 @@
-"Every beginning has an end… and an editorial." - taran_1407
+# Problem Link:
 
-What the hell are all these interactive problems? What does flushing output mean? So many questions… Chef explains it in an easy way: you must communicate with a grader program, which accepts your input only if you flushed the output.
-
+[Link](https://www.codechef.com/DEC18B/problems/CHFINTRO)
+# Description
 There is a contest with interactive problems where N
 people participate. Each contestant has a known rating. Chef wants to know which contestants will not forget to flush the output in interactive problems. Fortunately, he knows that contestants with rating at least r never forget to flush their output and contestants with rating smaller than r
 
@@ -24,7 +24,7 @@ Constraints
 
     1≤N≤1,000
 
-1,300≤r,R≤1,501
+    1,300≤r,R≤1,501
 
 Subtasks
 
@@ -32,11 +32,14 @@ Subtask #1 (100 points): original constraints
 Example Input
 
 2 1500
+
 1499
+
 1501
 
 Example Output
 
 Bad boi
+
 Good boi
 
