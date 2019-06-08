@@ -3,18 +3,14 @@
 [Link](https://www.codechef.com/problems/DPS)
 # Description
 A dummy palindromic string (DPS) is a string which can be converted into a palindrome by performing each of the following operations exactly once:
-
-    Permute the characters of the string in an arbitrary way.
-    Choose a valid index i
-
-and change the i
-
-    -th character of the resulting string to a different character (not necessarily present in the original string).
+Permute the characters of the string in an arbitrary way.
+Choose a valid index i and change the i-th character of the resulting string to a different character (not necessarily present in the original string).
 
 You are given a string S
 
 . Find out whether it is a DPS.
-Input
+
+**Input**
 
     The first line of the input contains a single integer T
 
