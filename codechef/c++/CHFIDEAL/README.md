@@ -1,3 +1,10 @@
+# Problem Link:
+
+[Link](https://www.codechef.com/DEC18B/problems/CHFIDEAL)
+# Description
+
+This is an interactive problem.
+
 Chef likes probability puzzles a lot, almost as much as interactive problems. Today, he learned about the Monty Hall Paradox.
 
 Suppose that Chef is participating in a game show, where he has to choose between three doors numbered 1
@@ -32,10 +39,3 @@ X≠Y
 Subtasks
 
 Subtask #1 (100 points): original constraints
-Example
-
-You                     Grader
-3
-                        1
-2
-
