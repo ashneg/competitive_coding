@@ -26,7 +26,6 @@ The first line of each test case contains a single integer N
 The second line contains N
 space-separated integers A1,A2,…,AN
 
-    .
 
 Output
 
@@ -35,8 +34,8 @@ Constraints
 
     1≤T≤1,000
 
-1≤N≤105
-1≤Ai≤N
+    1≤N≤105
+    1≤Ai≤N
 for each valid i
 the sum of N
 over all test cases does not exceed 2⋅105
@@ -49,28 +48,37 @@ Subtask #2 (73 points): original constraints
 Example Input
 
 4
+
 4
+
 1 1 2 3
+
 4
+
 2 1 3 3
+
 5
+
 5 4 4 3 1
+
 5
+
 3 2 1 1 4
 
 Example Output
 
 Truly Happy
+
 Poor Chef
+
 Poor Chef
+
 Truly Happy
 
 Explanation
 
 Example case 1: Chef is truly happy because AA3=AA1
 and A3≠A1
-
-.
 
 Example case 2: There is no pair of indices which would make Chef truly happy.
 For instance, AA3=AA4, but A3=A4
