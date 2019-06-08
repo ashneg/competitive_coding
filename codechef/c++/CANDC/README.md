@@ -1,3 +1,6 @@
+# Problem Link:
+[Link](https://www.codechef.com/NUVO2019/problems/CANDC)
+# Description
 Tis’ the holiday season, and the Chef is inviting the best coders to his annual summer beach party. He invites n
 
 people, and they all enter one after the other. The Chef has arranged a chess competition in his party, and needs to divide all his friends into pairs to play the game. Note : if any invitee is left unpaired, that person will play against the Chef, otherwise the chef will not participate.
@@ -20,18 +23,17 @@ Output:
 For each test case print M
 . Since the outputs may be large, print it modulo 109+7
 
-.
 Constraints
 
     1≤T≤106
 
-1≤n≤107
+    1≤n≤107
 
 Subtask 1
 
     1≤T≤40
 
-1≤n≤40
+    1≤n≤40
 
 Subtask 2
 
