@@ -12,11 +12,10 @@ On a particular server, there are a number of squads, b number of duos, c number
 **Input:**
 
     The first line of the input contains a single integer T
-
-denoting the number of test cases. The description of T
-test cases follows.
-The first and only line of each test case contains two space separated integers p
-and d
+    denoting the number of test cases.
+    The description of T test cases follows.
+    The first and only line of each test case contains two space separated integers p
+    and d
 
 **Output:**
 
@@ -33,14 +32,12 @@ and d
 Subtask #1 (10 points):
 
     1≤T≤3⋅10^3
-
-100≤p≤1000
+    100≤p≤1000
 
 Subtask #2 (30 points):
 
     1≤T≤3⋅10^4
-
-100≤p≤10000
+    100≤p≤10000
 
 Subtask #3 (60 points):
 
