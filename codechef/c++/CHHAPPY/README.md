@@ -28,7 +28,7 @@ For each test case, print a single line containing the string "Truly Happy" if i
 Constraints
 
     1≤T≤1,000
-    1≤N≤105
+    1≤N≤10^5
     1≤Ai≤N
 for each valid i the sum of N over all test cases does not exceed 2⋅10<sup>5</sup>
 
