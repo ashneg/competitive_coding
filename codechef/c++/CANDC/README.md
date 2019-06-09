@@ -8,26 +8,22 @@ people, and they all enter one after the other. The Chef has arranged a chess co
 The chef decides the number of ways the invitees can be paired at any instant to be called the magic number of the party M
 . For example, if there are 3 people invited, the magic number at the 1st instance is 1, because the 1st person to arrive at the party is paired with the chef. When the 2nd person arrives, he is paired with the 1st invitee, and the chef doesn’t play. Thus the magic number is 1. When the 3rd guest arrives, he has 3 people to play with (Counting the chef because one person will be left unpaired), Then the remaining 2 people will play against each other. Thus the magic number is 3
 
-. The chef wants to find out the magic number when all the guests have entered the party. Help him find this number out.
-Input:
+The chef wants to find out the magic number when all the guests have entered the party. Help him find this number out.
+###Input:
 
-    First line will contain T
+    First line will contain T, number of testcases. Then the testcases follow.
+    Each testcase contains of a single integer n, the number of guests invited to his party
 
-, number of testcases. Then the testcases follow.
-Each testcase contains of a single integer n
-
-    , the number of guests invited to his party
-
-Output:
+### Output:
 
 For each test case print M
-. Since the outputs may be large, print it modulo 109+7
+. Since the outputs may be large, print it modulo 10<sup>9</sup>+7
 
 Constraints
 
-    1≤T≤106
+    1≤T≤10^6
 
-    1≤n≤107
+    1≤n≤10^7
 
 Subtask 1
 
@@ -39,19 +35,26 @@ Subtask 2
 
     Original Constraints
 
-Sample Input:
+### Sample Input:
 
  4
+ 
  1
+ 
  2
+ 
  3
+ 
  4
 
-Sample Output:
+### Sample Output:
 
  1
+ 
  1
+ 
  3
+ 
  3
 
 EXPLANATION:
