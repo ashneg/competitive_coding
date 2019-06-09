@@ -12,40 +12,32 @@ Chef is happy only if three conditions hold:
 Today, all three conditions are satisfied. Chef would like you to feel his happiness and provide him with a solution for this new problem with a sequence of integers. The problem is as follows.
 
 You are given a sequence A1,A2,…,AN
-. You need to determine if it is possible to choose two indices i and j such that Ai≠Aj, but AAi = AAj
+. You need to determine if it is possible to choose two indices i and j such that Ai≠Aj, but AAi = AAj.(If it was possible, Chef would be truly happy.)
+### Input
 
-. (If it was possible, Chef would be truly happy.)
-Input
-
-    The first line of the input contains a single integer T
-
-denoting the number of test cases. The description of T
-test cases follows.
-The first line of each test case contains a single integer N
-.
-The second line contains N
-space-separated integers A1,A2,…,AN
+    The first line of the input contains a single integer T denoting the number of test cases.
+    The description of T test cases follows.
+    The first line of each test case contains a single integer N.
+    The second line contains N
+    space-separated integers A1,A2,…,AN
 
 
-Output
+### Output
 
 For each test case, print a single line containing the string "Truly Happy" if it is possible to choose required indices or "Poor Chef" otherwise.
 Constraints
 
     1≤T≤1,000
-
     1≤N≤105
     1≤Ai≤N
-for each valid i
-the sum of N
-over all test cases does not exceed 2⋅105
+for each valid i the sum of N over all test cases does not exceed 2⋅10<sup>5</sup>
 
 Subtasks
 
 Subtask #1 (27 points): 1≤N≤1,000
 
 Subtask #2 (73 points): original constraints
-Example Input
+### Example Input
 
 4
 
@@ -65,7 +57,7 @@ Example Input
 
 3 2 1 1 4
 
-Example Output
+### Example Output
 
 Truly Happy
 
@@ -74,11 +66,3 @@ Poor Chef
 Poor Chef
 
 Truly Happy
-
-Explanation
-
-Example case 1: Chef is truly happy because AA3=AA1
-and A3≠A1
-
-Example case 2: There is no pair of indices which would make Chef truly happy.
-For instance, AA3=AA4, but A3=A4
