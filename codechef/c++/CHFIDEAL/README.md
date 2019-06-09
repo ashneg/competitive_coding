@@ -14,27 +14,18 @@ through 3
 
 First, you need to help Chef pick a door (let's denote it by X
 ). Then, the host opens a different door (let's denote it by Y) such that there is a goat behind this door, and asks Chef to pick an arbitrary door again (let's denote it by Z). You need to help Chef pick door Z too. You should do it in such a way that the probability of a car being behind door Z
-
 is maximised. If there are multiple optimal possible ways to pick doors for Chef, you may choose any one.
-Interaction
-
-    First, you should print a line containing a single integer X
-
-(1≤X≤3
-).
-Then, you should read a line containing a single integer Y
-.
+Interaction. First, you should print a line containing a single integer X(1≤X≤3).
+Then, you should read a line containing a single integer Y.
 Finally, you should print a line containing a single integer Z
-(1≤Z≤3
-
-    ).
+(1≤Z≤3).
 
 Don't forget to flush the output after printing each line!
 Constraints
 
     1≤Y≤3
 
-X≠Y
+    X≠Y
 
 Subtasks
 
