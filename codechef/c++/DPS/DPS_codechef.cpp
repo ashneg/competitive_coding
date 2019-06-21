@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include<iostream>
 using namespace std;
 typedef long long ll;
 const ll M = 1e9+7;

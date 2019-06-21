@@ -1,14 +1,17 @@
-#include<stdio.h>
-int main()
+#include<iostream>
+
+using namespace std;
+
+int main(void)
 {
     int T;
-    scanf("%d",&T);
+    cin>>T;
     for(int i=0;i<T;++i)
     {
         int N;
         int K;
         long A;
-        scanf("%d%d%d",&N,&A,&K);
+        cin>>N>>A>>K;
         long X;
         int Y;
         X=A*N*(N-1)+(K-1)*(360*(N-2)-2*A*N);
@@ -21,7 +24,7 @@ int main()
                 int W;
                 Z=X/j;
                 W=Y/j;
-                printf("%d %d\n",Z,W);
+		cout<<Z<<endl<<W;
                 break;
             }
 

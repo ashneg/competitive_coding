@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include<iostream>
 using namespace std;
 #define PI 3.1415926535897932384626
 #define ll long long int
